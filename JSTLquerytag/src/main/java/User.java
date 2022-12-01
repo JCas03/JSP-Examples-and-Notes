@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 public class User {
 
-    @Id
+    @Column(name = "ssn")
     private int ssn;
 
     @Column(name = "first_name")
